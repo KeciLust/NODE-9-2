@@ -138,6 +138,11 @@
         <% } %>
 
         <div class="book-details">
+            <div class="detail-row">
+                <div class="detail-label">👁️ Просмотров:</div>
+                <div class="detail-value" style="font-weight: 600; color: #667eea;"><%= viewCount || 0 %></div>
+            </div>
+
             <% if (book.description) { %>
                 <div class="detail-row">
                     <div class="detail-label">Описание:</div>
